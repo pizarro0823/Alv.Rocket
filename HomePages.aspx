@@ -69,7 +69,7 @@
                             </div>
                         </div>
 
-                        <div style="margin-top:3%;background-color:grey" >
+                        <div style="margin-top:3%;background-color:grey"  >
                             <p style="color:white;text-align:center;border-radius:8px   ">Detalle</p>
                             <asp:GridView runat="server" AutoGenerateColumns="false" class="table table-bordered">
                                 <Columns>
@@ -87,17 +87,14 @@
 
                         <div style="position: relative; margin-top: 1px">
                             <div class="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom"></div>
-                            <asp:Label runat="server" ID="Label1" Style="color: grey">Campos Obligatorios(*):</asp:Label>
-                            <asp:Button runat="server" class="btn btn-success" Style="position: relative; left: 70%" Text="Continuar >>>" />
+                            <asp:Label runat="server" ID="Label1" Style="color: grey">Campos Obligatorios(*)</asp:Label>
+                            <asp:Button runat="server" class="btn btn-success" Style="position: relative; left: 70%" Text="Continuar >>>" OnClick="Onpress" />
                         </div>
 
                     </div>
                 </main>
             </div>
         </div>
-
-
-
     </form>
 </body>
 </html>

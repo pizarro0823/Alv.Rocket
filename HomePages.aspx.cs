@@ -13,5 +13,10 @@ namespace HomePages
         {
 
         }
+
+        protected void Onpress(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "popup", "$('#myModal2').modal();", true);
+        }
     }
 }

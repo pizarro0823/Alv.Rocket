@@ -67,13 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConsultarFactura.aspx" />
     <Content Include="HomePages.aspx" />
+    <Content Include="img\edit_copy_icon_181106.png" />
     <Content Include="Style\css\bootstrap.min.css" />
     <Content Include="Style\css\style1.css" />
     <Content Include="Style\js\bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultarFactura.aspx.cs">
+      <DependentUpon>ConsultarFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultarFactura.aspx.designer.cs">
+      <DependentUpon>ConsultarFactura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePages.aspx.cs">
       <DependentUpon>HomePages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -92,9 +101,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Class\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
