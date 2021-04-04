@@ -1,0 +1,20 @@
+﻿body {
+}
+
+.border_txt {
+
+  border-radius:10px;
+  border-width:thin;
+
+
+}
+
+.lblRed {
+   color:red;
+   font-family: Segoe UI;
+   font-size:x-large;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-radius: 10px;
+}

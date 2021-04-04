@@ -60,22 +60,22 @@ namespace HomePages
         protected global::System.Web.UI.WebControls.TextBox txt_cedula_cliente;
 
         /// <summary>
-        /// Control TextBox5.
+        /// Control txt_direccion_cliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txt_direccion_cliente;
 
         /// <summary>
-        /// Control TextBox6.
+        /// Control txt_telefono_cliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txt_telefono_cliente;
 
         /// <summary>
         /// Control Lbl_total.
